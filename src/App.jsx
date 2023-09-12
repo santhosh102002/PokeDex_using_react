@@ -1,4 +1,4 @@
-
+import Pokedex from "./components/Pokedex/Pokedex"
 import './App.css'
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
 
   return (
    <>
+   <Pokedex/>
    </>
   )
 }
