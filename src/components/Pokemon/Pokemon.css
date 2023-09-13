@@ -1,3 +1,7 @@
+.pokemon-wrapper{
+    display: block;
+    flex-basis: 30%;
+}
 .pokemon{
     flex-basis: 30%;
     display: flex;

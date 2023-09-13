@@ -1,14 +1,16 @@
 import Pokedex from "./components/Pokedex/Pokedex"
 import './App.css'
-import PokemonList from "./components/PokemonList/PokemonList"
+import PokemonDetails from "./components/PokemonDetails/PokemonDetails"
+import {Route, Routes} from "react-router-dom"
 
 function App() {
  
 
   return (
-   <>
-   <Pokedex/>
-   </>
+   <Routes>
+    <Route path="/" element={<Pokedex/>}/>
+    <Route path="/pokemon/:id" element={<PokemonDetails/>}/>
+   </Routes>
   )
 }
 
